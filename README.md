@@ -6,3 +6,5 @@
 
 Пример запуска игры "Проверка на четность" https://asciinema.org/a/qzsPfnbhUYD5cu4Bbc6wkXlFc
 
+Пример разных исходов игры "Калькулятор" https://asciinema.org/a/sJVxfJJKPIMO8EyT59oDEzjHw
+
