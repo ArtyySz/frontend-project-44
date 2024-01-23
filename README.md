@@ -8,3 +8,4 @@
 
 Пример разных исходов игры "Калькулятор" https://asciinema.org/a/sJVxfJJKPIMO8EyT59oDEzjHw
 
+Пример разных исходов игры "НОД" https://asciinema.org/a/cYs4untkjelak0qGu13igAwax
