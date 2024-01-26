@@ -11,3 +11,5 @@
 Пример разных исходов игры "НОД" https://asciinema.org/a/cYs4untkjelak0qGu13igAwax
 
 Пример разных исходов игры "Арифметическая прогрессия" https://asciinema.org/a/KdTtnJIxion2QQfLRSgdQsw0A
+
+Пример разных исходов игры "Простое ли число?" https://asciinema.org/a/mlngs1ekJyaZZj7kVRGjqYs48
