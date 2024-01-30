@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-
+/* eslint no-eval: 0 */
 import readlineSync from 'readline-sync';
-import { greetUser } from '../src/cli.js';
+import { User } from '../src/cli.js';
 import { brainGameStart } from '../src/index.js';
 
 function randomOperation() {
@@ -9,19 +9,15 @@ function randomOperation() {
   const randomIndex = Math.floor(Math.random() * operations.length);
   return operations[randomIndex];
 }
-  
 function generateMathExpression() {
   const num1 = Math.floor(Math.random() * 101);
   const num2 = Math.floor(Math.random() * 101);
   const operator = randomOperation();
-  
   return `${num1} ${operator} ${num2}`;
 }
-  
 function calculateExpression(expression) {
   return eval(expression);
 }
-  
 function brainCalc(PlayerName) {
   const expression = generateMathExpression();
   const correctAnswer = calculateExpression(expression);
@@ -35,8 +31,8 @@ function brainCalc(PlayerName) {
   console.log(`Let's try again, ${PlayerName}!`);
   return 0;
 }
-  
-  const gameName = brainCalc;
-  const PlayerName = greetUser();
-  console.log('What is the result of the expression?');
-  brainGameStart(PlayerName, gameName);
+const gameName = brainCalc;
+const PlayerName = User();
+
+console.log('What is the result of the expression?');
+brainGameStart(PlayerName, gameName);
