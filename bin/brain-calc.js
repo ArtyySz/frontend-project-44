@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* eslint no-eval: 0 */
 import readlineSync from 'readline-sync';
-import { User } from '../src/cli.js';
+import { greetUser } from '../src/cli.js';
 import { brainGameStart } from '../src/index.js';
 
 function randomOperation() {
@@ -32,7 +32,7 @@ function brainCalc(PlayerName) {
   return 0;
 }
 const gameName = brainCalc;
-const PlayerName = User();
+const PlayerName = greetUser();
 
 console.log('What is the result of the expression?');
 brainGameStart(PlayerName, gameName);
