@@ -12,4 +12,4 @@
 
 Пример разных исходов игры "Арифметическая прогрессия" https://asciinema.org/a/KdTtnJIxion2QQfLRSgdQsw0A
 
-Пример разных исходов игры "Простое ли число?" https://asciinema.org/a/mlngs1ekJyaZZj7kVRGjqYs48
+Пример разных исходов игры "Простое ли число?" [![asciicast](https://asciinema.org/a/ycJa2eQt7u1nvCEcDPcgDT2pS.svg)](https://asciinema.org/a/ycJa2eQt7u1nvCEcDPcgDT2pS)
