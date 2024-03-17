@@ -4,12 +4,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/bd1fcf88b0d0d255ab27/maintainability)](https://codeclimate.com/github/ArtyySz/frontend-project-44/maintainability)
 
-Пример запуска игры "Проверка на четность" https://asciinema.org/a/qzsPfnbhUYD5cu4Bbc6wkXlFc
+Пример запуска игры "Проверка на четность" [![asciicast](https://asciinema.org/a/nmbj33FRV7vUUntZRwmJS4jZX.svg)](https://asciinema.org/a/nmbj33FRV7vUUntZRwmJS4jZX)
 
-Пример разных исходов игры "Калькулятор" https://asciinema.org/a/sJVxfJJKPIMO8EyT59oDEzjHw
+Пример разных исходов игры "Калькулятор" [![asciicast](https://asciinema.org/a/XNlL7meRnywNS8wAWJkftArxY.svg)](https://asciinema.org/a/XNlL7meRnywNS8wAWJkftArxY)
 
-Пример разных исходов игры "НОД" https://asciinema.org/a/cYs4untkjelak0qGu13igAwax
+Пример разных исходов игры "НОД" [![asciicast](https://asciinema.org/a/T99Sd07YklzIb4zgwjMpBykmv.svg)](https://asciinema.org/a/T99Sd07YklzIb4zgwjMpBykmv)
 
-Пример разных исходов игры "Арифметическая прогрессия" https://asciinema.org/a/KdTtnJIxion2QQfLRSgdQsw0A
+Пример разных исходов игры "Арифметическая прогрессия" [![asciicast](https://asciinema.org/a/ikApx4qXGkPBbFwmKL9L2iT8c.svg)](https://asciinema.org/a/ikApx4qXGkPBbFwmKL9L2iT8c)
 
 Пример разных исходов игры "Простое ли число?" [![asciicast](https://asciinema.org/a/ycJa2eQt7u1nvCEcDPcgDT2pS.svg)](https://asciinema.org/a/ycJa2eQt7u1nvCEcDPcgDT2pS)
