@@ -1,22 +1,34 @@
 import readlineSync from 'readline-sync';
+import { greetUser } from './cli.js';
 
-const gameLogic = (gameFunction, rules) => {
-  const counterCorrectAnswer = 3;
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log(rules);
-
-  for (let i = 1; i <= counterCorrectAnswer; i += 1) {
-    const [question, correctAnswer] = gameFunction();
-    console.log(`Question: ${question}`);
-    const userAnswer = readlineSync.question('You answer: ');
-    if (userAnswer !== correctAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'\nLet's try again, ${userName}!`);
-      return;
-    }
-    console.log('Correct!');
-  }
-  console.log(`Congratulations, ${userName}!`);
+export const getAnswer = (question) => {
+  console.log(`Question: ${question}`);
+  return readlineSync.question('Your answer: ');
 };
-export default gameLogic;
+
+export const brainGameStart = (n, str, gameName) => {
+  const name = greetUser();
+  let correctCount = 0;
+  console.log(str);
+  while (correctCount < n) {
+    if (gameName(name) === 1) {
+      console.log('Correct!');
+      correctCount += 1;
+    } else return 0;
+  }
+  console.log(`Congratulations, ${name}!`);
+  return 0;
+};
+
+export const loseGame = (correctAnswer, answer, name) => {
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+  console.log(`Let's try again, ${name}!`);
+};
+
+export const answerCheck = (answer, correctAnswer, name) => {
+  if ((typeof correctAnswer === 'number' ? parseInt(answer, 10) : answer) === correctAnswer) {
+    return 1;
+  }
+  loseGame(correctAnswer, answer, name);
+  return 0;
+};
