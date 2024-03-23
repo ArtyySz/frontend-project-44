@@ -2,8 +2,8 @@ import { randomNumber } from '../cli.js';
 import { answerCheck, getAnswer } from '../index.js';
 
 export const str = 'Answer "yes" if the number is even, otherwise answer "no".';
-export const a = 3; 
-const randMax = 100; 
+export const a = 3;
+const randMax = 100;
 
 export const brainEven = (name) => {
   const number = randomNumber(0, randMax);
